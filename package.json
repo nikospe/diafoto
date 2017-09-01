@@ -1,0 +1,13 @@
+{
+  "name": "diafoto",
+  "version": "1.0.0",
+  "author": "Nikos Perivolaris",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-file-include": "^1.0.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^2.1.1"
+  }
+}
