@@ -1,0 +1,29 @@
+/* Colours
+-------------------------------------------------------------------- */
+body{color:#EAEAEA; background-color:#272421;}
+a{color:#FF8F2B;}
+a:active, a:focus{background:transparent;}
+hr, .borderedbox{border-color:#D7D7D7;}
+label span{color:#FF0000; background-color:inherit;}
+input:focus, textarea:focus, *:required:focus{border-color:#FF8F2B;}
+
+.overlay{color:#FFFFFF; background-color:inherit;}
+.overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
+.overlay.coloured::after{color:inherit; background-color:rgba(75,70,65,.8);}
+
+.element{border-color:#D7D7D7;}
+.element figure figcaption .btn:hover {
+    color:#FF8F2B; 
+    background-color:#FFFFFF; 
+    border-color:#FF8F2B #FFFFFF #FFFFFF #FF8F2B;
+}
+.element .excerpt .heading a{color:inherit;}
+.element:hover .excerpt .heading a{color:#FF8F2B;}
+.element .excerpt time{color:#EAEAEA; background-color:#272421;}
+.element .excerpt time strong{color:#FFFFFF; background-color:#3C3733;}
+.element .excerpt time[data-title*="April"] strong{background-color:#55DEA8;}
+.element .excerpt time[data-title*="May"] strong{background-color:#FF7659;}
+.element .excerpt time[data-title*="June"] strong{background-color:#9771BD;}
+
+.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#FF8F2B; border-color:#FF8F2B;}
+.btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}

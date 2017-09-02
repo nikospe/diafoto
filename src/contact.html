@@ -3,15 +3,17 @@
     @gulp@include('html_templates/head.html')
 <body id="index">    
     @gulp@include('html_templates/navbar.html',{
-        "home": "active",
+        "home": "",
         "companies" : "",
         "products" : "",
         "gallery" : "",
         "aboutus" : "",
-        "contact" : ""
-    })
-    @gulp@include('html_templates/main_index.html')
+        "contact" : "active"
+    })  
+    @gulp@include('html_templates/main_contact.html')
     @gulp@include('html_templates/footer.html')
     @gulp@include('html_templates/scripts.html')
+    <script src="js/company-map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAk82zSKgouEkxAhwk0eKnxM3j1ZKXW7t0&libraries=places&callback=myMap"></script> 
 </body>
 </html>

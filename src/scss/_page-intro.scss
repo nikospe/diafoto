@@ -1,0 +1,13 @@
+/* Page Intro
+--------------------------------------------------------------------------------------------------------------- */
+#pageintro{padding:150px 0;}
+
+#pageintro article{display:block; max-width:50%;}
+#pageintro article .heading{margin-bottom:30px; font-size:42px;}
+#pageintro article p{margin:0;}
+#pageintro article p:last-of-type{margin-bottom:30px;}
+#hero {
+	background-image: url("../images/fwtistika.jpg");
+	background-position: center center;
+	height: calc( 100vh - 120px );
+}

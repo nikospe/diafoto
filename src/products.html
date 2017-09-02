@@ -3,14 +3,14 @@
     @gulp@include('html_templates/head.html')
 <body id="index">    
     @gulp@include('html_templates/navbar.html',{
-        "home": "active",
+        "home": "",
         "companies" : "",
-        "products" : "",
+        "products" : "active",
         "gallery" : "",
         "aboutus" : "",
         "contact" : ""
     })
-    @gulp@include('html_templates/main_index.html')
+    @gulp@include('html_templates/main_product.html')
     @gulp@include('html_templates/footer.html')
     @gulp@include('html_templates/scripts.html')
 </body>

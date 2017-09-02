@@ -2,7 +2,14 @@
 <html lang="el">
     @gulp@include('html_templates/head.html')
 <body id="index">    
-    @gulp@include('html_templates/navbar.html')
+    @gulp@include('html_templates/navbar.html',{
+        "home": "",
+        "companies" : "",
+        "products" : "",
+        "gallery" : "",
+        "aboutus" : "active",
+        "contact" : ""
+    })
     @gulp@include('html_templates/main_aboutus.html')
     @gulp@include('html_templates/footer.html')
     @gulp@include('html_templates/scripts.html')

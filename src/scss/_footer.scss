@@ -1,0 +1,33 @@
+/* Footer
+-------------------------------------------------------------------- */
+#footer{padding:80px 0;}
+#footer .title{margin:0 0 50px 0; padding:0; font-size:1.2rem;}
+#footer .linklist li{display:block; margin-bottom:15px; padding:0 0 15px 0; border-bottom:1px solid;}
+#footer .linklist li:last-child{margin:0; padding:0; border:none;}
+#footer .linklist li::before, #footer .linklist li::after{display:table; content:"";}
+#footer .linklist li, #footer .linklist li::after{clear:both;}
+#footer .contact.linklist li, #footer .contact.linklist li:last-child {
+    position:relative; 
+    padding-left:40px;
+}
+#footer .contact li *{margin:0; padding:0; line-height:1.6;}
+#footer .contact li i {
+    display:block; 
+    position:absolute; 
+    top:0; 
+    left:0; 
+    width:30px; 
+    font-size:16px; 
+    text-align:center;
+}
+/* Footer */
+#footer .linklist li{border-color:#272421;}
+
+/* Copyright
+--------------------------------------------------------------------- */
+#copyright {
+    min-height: 20px;
+    max-height: 165px;
+    padding:10px 0;
+}
+#copyright *{margin:0; padding:0;}
