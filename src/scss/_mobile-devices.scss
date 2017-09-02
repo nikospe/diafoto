@@ -16,9 +16,6 @@
   #mainav form {
     display: block;
   }
-  #comments input[type="reset"] {
-    margin-top: 10px;
-  }
   .pagination li {
     display: inline-block;
     margin: 0 5px 5px 0;
@@ -28,7 +25,7 @@
   }
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 900px) {
   #pageintro__left {
     width: 100%;
   }

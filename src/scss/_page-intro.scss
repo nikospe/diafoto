@@ -15,6 +15,27 @@
       font-size: 42px;
     }
   }
+  &__right {
+    border: 1px solid #FF8F2B;
+    padding-left: 5px;
+    max-width: 421px;
+    border-radius: 12px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    box-shadow: 0 0 10px 1px rgba(255,143,43,1);
+    background-color: #4B4641;
+  }
+}
+
+#contact-icons {
+  display: inline-table;
+  width: 100px;
+  &__fb,
+  &__insta {
+      width: 40px;
+      margin-top: 30px;
+      margin-right: 5px;
+  }
 }
 
 #pageintro article p:last-of-type {
@@ -24,19 +45,9 @@
 #hero {
   display: flex;
   align-items: center;
-  height: calc(100vh - 122px);
-
+  height: calc(100vh - 130px);
   background-image: url("../images/fwtistika.jpg");
   background-position: center center;
-}
-
-.contact-icons {
-  text-align: center;
-  width: 40px;
-  float: left;
-  margin-top: 30px;
-  margin-right: 5px;
-  margin-left: 5px;
 }
 
 .contact_page-icons {
@@ -45,7 +56,7 @@
 
 p#cf7_controls {
   text-align: center;
-  color: #FF8F2B;
+  color: white;
   margin: 0;
 }
 
