@@ -19,7 +19,7 @@
     border: 1px solid #FF8F2B;
     padding-left: 5px;
     max-width: 421px;
-    border-radius: 12px;
+    height: 281px;
     padding-bottom: 5px;
     padding-top: 5px;
     box-shadow: 0 0 10px 1px rgba(255,143,43,1);
@@ -61,19 +61,24 @@ p#cf7_controls {
 }
 
 #cf7_controls span {
-  padding-right: 2em;
+  margin-right: 2em;
   cursor: pointer;
+  padding: 3px;
+  &:hover {
+    box-shadow: 0 0 10px 1px rgba(255,143,43,1);    
+    font-size: large;
+  }
 }
 
 #cf7 {
   position: relative;
-  height: 250px;
-  width: 430px;
+  height: 240px;
+  width: 410px;
   //margin:0 auto 10px;
 }
 
 .slider-images {
-  width: 95%;
+  width: 100%;
   height: 230px;
 }
 
