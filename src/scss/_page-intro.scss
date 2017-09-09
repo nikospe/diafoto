@@ -56,33 +56,33 @@
   position: relative;
   height: 240px;
   width: 410px;
-  background-image: url("../images/1.jpg");
+  background-image: url("../images/images-animation/1.jpg");
   background-size: 100% 100%;
   animation: page_intro_animate 32s ease-in-out 2s infinite alternate;
 }
 @keyframes page_intro_animate {
   0%   {
-    background-image: url("../images/4.jpg"); 
+    background-image: url("../images/images-animation/4.jpg"); 
     background-repeat:no-repeat;
     background-position: center center;
   }
   25%  {
-    background-image: url("../images/3.jpg"); 
+    background-image: url("../images/images-animation/3.jpg"); 
     background-repeat:no-repeat;
     background-position: center center;
 }
   50%  {
-    background-image: url("../images/2.jpg");
+    background-image: url("../images/images-animation/2.jpg");
     background-repeat:no-repeat;
     background-position: center center;
   }
   75%  {
-    background-image: url("../images/1.jpg");
+    background-image: url("../images/images-animation/1.jpg");
     background-repeat:no-repeat;
     background-position: center center;
   }
   100% {
-    background-image: url("../images/4.jpg");
+    background-image: url("../images/images-animation/4.jpg");
     background-repeat:no-repeat;
     background-position: center center;
   }
