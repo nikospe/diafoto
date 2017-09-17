@@ -14,6 +14,12 @@
 .sidebar .sdb_holder{margin-bottom:50px;}
 .sidebar .sdb_holder:last-child{margin-bottom:0;}
 
+/*Body
+------------------------------------------------------------------*/
+body {
+	position: relative;
+}
+
 /* Transition Fade
 ----------------------------------------------------------------- */
 *, *::before, *::after{transition:all .3s ease-in-out;}
