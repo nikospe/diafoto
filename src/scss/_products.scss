@@ -8,3 +8,10 @@
 table td {
     color: black;
 }
+
+.fpa-text {
+    &__at {
+        color: red;
+        text-decoration-line: underline;
+    }
+}
