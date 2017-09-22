@@ -33,31 +33,37 @@
     display: none;
   }
   #hero {
-    height: calc( 100% - 136px );
+    height: calc( 100% - 135px );
   }
 }
 
-@media screen and (max-width: 825px) {
+@media screen and (max-width: 805px) {
   #hero {
-    height: calc( 100% - 158px );
+    height: calc( 100% - 157px );
   }
 }
 
 @media screen and (max-width: 750px) {
   #hero {
-    height: calc( 100% - 202px );
+    height: calc( 100% - 201px );
   }
 }
 
 @media screen and (max-width: 435px) {
   #hero {
-    height: calc( 100% - 224px );
+    height: calc( 100% - 201px );
   }
 }
 
-@media screen and (max-width: 290px) {
+@media screen and (max-width: 415px) {
   #hero {
-    height: calc( 100% - 246px );
+    height: calc( 100% - 223px );
+  }
+}
+
+@media screen and (max-width: 265px) {
+  #hero {
+    height: calc( 100% - 245px );
   }
 }
 

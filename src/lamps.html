@@ -1,0 +1,17 @@
+<!DOCTYPE>
+<html lang="el">
+    @gulp@include('html_templates/head.html')
+<body>    
+    @gulp@include('html_templates/navbar.html',{
+        "home": "",
+        "companies" : "",
+        "products" : "active",
+        "gallery" : "",
+        "aboutus" : "",
+        "contact" : ""
+    })
+    @gulp@include('html_templates/main_lamps.html')
+    @gulp@include('html_templates/footer.html')
+    @gulp@include('html_templates/scripts.html')
+</body>
+</html>
