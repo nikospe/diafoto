@@ -37,6 +37,17 @@
         opacity: 1;
     }
 }
+#empty-catalog {
+    height: 192px;
+}
+#one-company {
+    height: 192px;
+    padding: 25px;
+}
+#faro-company {
+    padding: 35px;
+}
+
 .middle {
     transition: .5s ease;
     opacity: 0;
